@@ -14,7 +14,7 @@ public class Main {
         String apellido1 = sc.nextLine();
         System.out.print("Edad: ");
         int edad1 = sc.nextInt();
-        sc.nextLine(); // limpiar buffer
+        sc.nextLine();
         System.out.print("Teléfono: ");
         String telefono1 = sc.nextLine();
         System.out.print("Correo: ");
@@ -25,7 +25,7 @@ public class Main {
         boolean certificado1 = sc.nextBoolean();
         System.out.print("¿Aceptó los términos? (true/false): ");
         boolean acepto1 = sc.nextBoolean();
-        sc.nextLine(); // limpiar buffer
+        sc.nextLine();
 
         participantes p1 = new participantes(nombre1, apellido1, edad1, telefono1, correo1, nacionalidad1, certificado1, acepto1);
         p1.mostrarDatos();
